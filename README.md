@@ -1,5 +1,7 @@
 ![TASGM_Banner](TASGM_Banner.png)
 
+[查看中文版](README_CN.md)
+
 ## Overview
 A Simple Graph Maker can draw Classes in UML style
 
