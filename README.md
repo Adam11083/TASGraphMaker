@@ -12,7 +12,7 @@ A Simple Graph Maker can draw Classes in UML style
 + `index_CN.html` is the main page in Chinese
 
 ## view the Screenshot below!
-![Screenshot](ScreenShot.png)
+![index](indexEN.png)
 
 ## Features
 > Now in Version 0.1,FEATRURS ARE:
