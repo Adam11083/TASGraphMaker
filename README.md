@@ -3,6 +3,12 @@
 ## Overview
 A Simple Graph Maker can draw Classes in UML style
 
+> Dependency
+
++ `Bootstrap` for layout and UI
++ `Konva` for graph painting
++ `Huebee` for color selection
+
 > File Instructions
 
 + `test.js` is the Initialization of Konva Stages and Layers
