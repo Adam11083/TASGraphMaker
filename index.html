@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/huebee@1/dist/huebee.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/konva@4.0.16/konva.min.js"></script>
+    <script src="https://unpkg.com/huebee@1/dist/huebee.pkgd.js"></script>
+    <script src="functionLib.js"></script>
+</head>
+
+<body>
+    <h1 class="text-center" style="background-color: #0084ff"><img src="TASGM_Banner.png"></h1>
+
+    <div class="row">
+        <div class="col-md-3" style="background-color: #0084ff;">
+                <div class="btn-group btn-group-lg">
+                        <button type="button" class="btn btn-primary">New</button>
+                        <button type="button" class="btn btn-info">Load</button>
+                        <button id="save" type="button" class="btn btn-info">Export</button>
+                </div>
+            <br>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h2 class="panel-title">Add New Class</h2>
+                </div>
+                <div class="panel-body">
+                    <h5>Enter the class name:</h5>
+                    <input id="className" type="text" class="form-control" placeholder="Class Name">
+                    <h5>Enter the Properties name:</h5>
+                    <div id="Properties">
+                        <div id="property1group" class="input-group">
+                            <span class="input-group-addon">1</span>
+                            <input id="property1" type="text" class="form-control" placeholder="Property Name">
+                        </div>
+                        <button id="addProperty" type="button" class="btn btn-success btn-block">Add Property</button>      
+                    </div>
+                    <h5>Pick a Color:</h5>
+                    <input id="colorPicker" class="color-input form-control" value="#0084ff" placeholder="Pick a color" >  
+                    <br>
+                    <button id="addToCanava" type="button" class="btn btn-primary btn-block">ADD</button>
+                    
+                </div>
+            </div>
+            <div class="panel panel-primary">
+                 <div class="panel-heading">
+                    <h3 class="panel-title">面板标题</h3>
+                </div>
+                <div class="panel-body">
+                    这是一个基本的面板
+                </div>
+            </div>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                     <h3 class="panel-title">面板标题</h3>
+                </div>
+                <div class="panel-body">
+                    这是一个基本的面板
+                </div>
+            </div>
+        </div>
+        <div id="container" class="col-md-9" style="background-color: #ffffff;">
+           <div id="container2"></div>
+        </div>
+    </div>
+</body>
+<script src="test.js"></script>
+<script src="DomOps.js"></script>
+</html>
